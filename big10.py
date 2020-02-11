@@ -1,0 +1,10 @@
+data1 = input("영어점수 입력: ")
+data2 = input("수학점수 입력: ")
+data3 = input("국어점수 입력: ")
+eng = int(data1)
+math = int(data2)
+kor = int(data2)
+sum = eng + math + kor
+print("----------------")
+print("세 과목의 합은 " + str(sum) + "점")
+print("세 과목의 평균은 " + str(sum//3) +"점")
